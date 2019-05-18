@@ -1,0 +1,612 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/* 顶部横栏 */
+    .top01{
+        width: 100%;
+        min-width: 1000px;
+        background: #f7f7f7;
+    }
+    .top01 .top02{
+        width: 959px;
+        height: 35px;
+        margin: 0 auto;
+        padding: 5px 0 0 1px;
+        
+        position: relative;
+        
+    }
+    .logo{
+        display: block;
+        float: left;
+    }
+    .top03{
+        float: left;
+        margin-top: 17px;
+        
+    }
+    .top04 td .a1{
+        display: block;
+        text-decoration: none;
+        font: 12px/12px "宋体";
+        color: #333;
+        padding-left: 10px;
+        padding-right: 16px;
+        border-right: 1px solid #333;
+    }
+    .top02 .tell01{
+        font: 18px/18px "微软雅黑";
+        color: #333;
+        float: right;
+        margin-top: 13px;
+        padding-right: 11px;
+    }
+
+    .tell01 span{
+        color: #ff7200;
+    }
+    .top04 td:hover{
+        text-decoration: underline;
+    }
+
+
+
+/* 最上面的月亮图 */
+.bg{
+    width: 100%;
+    min-width: 1000px;
+    background: url(images/bg.png) no-repeat center;
+}
+.banner{
+    width: 960px;
+    height: 567px;
+    margin: 0 auto;
+}
+.banner img{
+    margin: 0 auto;
+    display: block;
+}
+/* 主体部分 */
+.sec1{
+    width: 100%;
+    height: 838px;
+    min-width: 1000px;
+    background: url(images/fistbg.gif) no-repeat center;
+    
+}
+.sec1 .sec2{
+    width: 960px;
+    height: 720px;
+    margin: 0 auto;
+    padding-top: 118px;
+    position: relative;
+}
+.sec2 img{
+    display:  block;
+    margin: 0 auto;
+}
+.sec2 .register,.sec2 .Login{
+    display: block;
+    float: left;
+    margin-top: 31px ;
+    padding: 0;
+    width: 100px;
+    height: 35px;
+    position: relative;
+    left: 389px;
+    font: 20px "微软雅黑";
+    color: #230b58;
+    text-align: center;
+    border: 1px solid #45343b;
+}
+.sec2 .register{
+    border-left: 2px solid #45343b;
+    background: #ece9f1;
+}
+.sec2 .Login{
+    border: 1px solid #503e54;
+    margin-left: 8px;
+    border-right: 2px solid #46353c;
+    background: #897ddb;
+}
+.sec2 p{
+    font: 14px "微软雅黑";
+    color: #d6d0fb;
+    text-align: center;
+    margin: 96px auto;
+    line-height: 0;
+}
+.sec2 .reward{
+    width: 179px;
+    height: 56;
+    background: #ff4598;
+    font: 22px "微软雅黑";
+    color: #fff;
+    text-align: center;
+    border-radius: 25px;
+    margin: 435px auto;
+    
+}
+/* 第二部分活动说明 */
+.second{
+    width: 100%;
+    height: 370px;
+    min-width: 1000px;
+    background: url(images/secondbg.gif) no-repeat center;
+}
+.second .activity{
+    width: 960px;
+    height: 360px;
+    margin: 0 auto;
+    padding-top: 10px;
+    background: url(images/activitybg.png) no-repeat center;
+    position: relative;
+}
+
+.activity h2{
+    width: 489px;
+    height: 38px;
+    padding: 31px 0 0 22px;
+    font: bold 22px/38px "微软雅黑";
+    color: #ffffff;
+    text-align: left;
+}
+.activity table{
+    width: 489px;     
+    padding-left: 22px;
+}
+tr .left{
+    width: 82px;
+    font: bold 18px "微软雅黑";
+    color: #fff;
+    padding-top: 26px;
+}
+tr .right{
+    font: bold 16px/24px "微软雅黑";
+    color: #fff;
+    padding-top: 26px;
+}
+.activity .admire{
+    width: 414px;
+    height: 259px;
+    position: absolute;
+    top: 41px;
+    left: 511px;
+    padding-top: 40px;
+}
+.admire .Elect{
+    font: 26.63px/26.63px "微软雅黑";
+    color: #fff;
+    margin-left: 108px;
+}
+.admire .face{
+    margin: 18px 0 0 63px;
+}
+.admire a{
+    width: 247px;
+    display: block;
+    font: bold 24px/54px "微软雅黑"; 
+    color: white;
+    text-align: center;
+    background-color: #ff4598;
+    text-decoration: none;
+    margin: 85px 0 0 79px;
+}
+
+/* 第三部分拜魁星 */
+.third{
+    width: 100%;
+    height: 647px;
+    min-width: 1000px;
+    background: url(images/third.png) no-repeat center;
+}
+.third .kuiXing{
+    width: 960px;
+    height: 587px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+.kuiXing img{
+    display: block;
+    margin: 0 auto;
+}
+.kuiXing .left01{
+    width: 469px;
+    height: 313px;
+    margin-top: 20px;
+    padding-top: 159px;
+}
+.left01 h2{
+    font: normal 24px/24px "微软雅黑";
+    color: white;
+    margin-left: 182px;
+}
+.left01 p{
+    font: 18px/28px "微软雅黑";
+    color: #c7aff8;
+    margin: 20px 45px  0 51px;
+    text-indent: 2em;
+}
+.kuiXing .right01{
+    width: 471px;
+    height: 110px;
+    margin: -472px 0 0 489px;
+    padding-top: 362px;
+    
+}
+.right01 a{
+    display: block;
+    width: 250px;
+    background: #f9c40e;
+    color: #660c00;
+    font: 24px/65px "微软雅黑";
+    text-align: center;
+    border-radius: 28px;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+/* 第四部分特价限时秒 */
+.fourth{
+    width: 100%;
+    min-width: 1000px;
+    background: url(images/fourth.png) no-repeat center;
+}
+.fourth .TimeLimit{
+    width: 960px;
+    height: 789px;
+    margin: 0 auto;
+    padding-top: 44px;
+}
+.TimeLimit img{
+    display: block;
+    margin: 0 auto;
+}
+.TimeLimit .love{
+    width: 470px;
+    height: 294px;
+    margin-top: 30px;
+    padding-top: 15px;
+}
+.love img{
+    margin-left: 32px;
+}
+.love h3{
+    font: normal 30px/30px "微软雅黑";
+    color: #f6eeec;
+    margin: 20px 0 0 94px;
+}
+.love h3 span{
+    font: bold 30px/30px "微软雅黑";
+    color: #ff4598;
+}
+.love .niulang{
+    font: 16px/28px "微软雅黑";
+    color: #c7aff8;
+    text-indent: 2em;
+    margin: 16px 33px 0 34px;
+}
+.love .time01{
+    font: 20px/20px "微软雅黑";
+    color: #b88fe9;
+    margin: 25px 0 0 72px;
+}
+.love .time01 span{
+    color: #fad648; 
+}
+/* 预约提醒 */
+.TimeLimit .order{
+    width: 470px;
+    height: 282px;
+    margin: -309px 0 0 490px;
+    padding-top: 27px;
+}
+.order .remind{
+    font: 26px/26px "微软雅黑";
+    color: #fff;
+    margin-left: 183px;
+}
+.order .information{
+    font: 16px/28px "微软雅黑";
+    color: #c7aff8;
+    margin: 15px 46px;
+}
+.order .name{
+    font: 18px/36px "微软雅黑";
+    color: #fff;
+    margin: 18px 0 0 80px;
+}
+.name .name01,.tell .tell01{
+height: 36px;
+width: 239px;
+}
+.order .tell{
+    font: 18px/36px "微软雅黑";
+    color: #fff;
+    margin: 15px 0 0 80px;
+}
+.order #submit{
+    width: 151px;
+    font: 20px/46px "微软雅黑";
+    color: #fffefe;
+    background: #ff4598;
+    border: none;
+    border-radius: 20px;
+    margin: 18px 0 0 160px;
+}
+/* 手机同步秒杀 */
+.fourth .phone{
+    width: 960px;
+    height: 309px;
+    margin-top: 20px;
+    padding-top: 26px;
+}
+.phone .phone01{
+    font: 26px/26px "微软雅黑";
+    color: #fff;
+    margin-left: 376px;
+}
+.phone .focus{
+    width: 374px;
+    height: 192px;
+    margin: 22px 0 0 46px;
+    padding-top: 38px;
+}
+.phone .focus h2{
+    font: 26px/26px "微软雅黑";
+    color: #ffea00;
+    margin-left: 65px;
+}
+.focus img{
+    margin: 24px 0 0 44px;
+}
+.focus .weixinhao{
+    font: 18px/18px "微软雅黑";
+    color: #fff;
+    margin: -96px 0 0 180px;
+}
+.focus .weixinhao span{
+    font-weight: bold;
+}
+.focus .saoma{
+    width: 118px;
+    background: #ff4598;
+    margin:16px 0 0 180px;
+    border-radius: 2px;
+    text-align: center;
+    font: bold 18px/42px "微软雅黑";
+    color: #fffefe;
+}
+/* 右边二维码 */
+.phone .books{
+    width: 409px;
+    margin: -230px 0 0 488px;
+    font: 16px/28px "微软雅黑";
+    color: #c7aff8;
+    text-indent: 2em;
+    
+}
+.phone .erweima02{
+    margin: 15px 0 0 534px;
+}
+.phone .enter{
+    font: 18px/18px "微软雅黑";
+    color: #ff4598;
+    margin: -60px 0 0 660px;
+}
+
+/* 第五部分城市选择 */
+.city{
+    width: 100%;
+    min-width: 1000px;
+    background: url(images/city.png) no-repeat center;
+}
+.city .city01{
+    width: 960px;
+    height: 74px;
+    margin: 0 auto;
+    padding-top: 41px;
+    overflow: hidden;
+}
+.city01 .city02{
+    display: block;
+    text-decoration: none;
+    width: 110px;
+    text-align: center;
+    font: 18px/54px "微软雅黑";
+    color: #fff;
+    background: #561b9c;
+    float: left;
+    margin-left: 8px;
+}
+.city02:hover{
+    background: #7937e7;
+}
+.city01 .fist01{
+    margin-left: 10px;
+}
+
+/* 第六部分图书 */
+.sixth{
+    width: 100%;
+    min-width: 1000px;
+    background: url(images/sixth.png) no-repeat center;
+}
+.sixth .sixth01{
+    width: 960px;
+    height: 1370px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.sixth01 .book01{
+    width: 413px;
+    height: 299px;
+    background: #fefbf3;
+    border: 6px solid #561b9c;
+    padding: 24px 13px 0 37px;
+    float: left;
+}
+.book01 .new01{
+    font: 18px/30px "微软雅黑";
+    color: #333;
+}
+.book01 .books{
+    margin-top: 12px;
+}
+.book01 .booksRight{
+    width: 179px;
+    height: 250px;
+   margin: -250px 0 0 199px;
+}
+.booksRight .dazhe{
+    margin-left: 10px;
+}
+.booksRight .lineation{
+    font: 20px/20px "微软雅黑";
+    color: #666;
+    text-decoration: line-through;
+    margin: 23px 0 0 9px;
+}
+.booksRight .CurrentPrice{
+    font: 20px/20px "微软雅黑";
+    color: #333;
+    margin: 16px 0 0 10px;
+}
+.booksRight .CurrentPrice span{
+    font: bold 28px/28px "微软雅黑";
+    color: #ff6600;
+}
+.booksRight .Shotgun{
+    display: block;
+    width: 179px;
+    font: 24px/48px "微软雅黑";
+    color: #fff;
+    text-align: center;
+    background: #fa5942;
+    border-radius: 2px;
+    text-decoration: none;
+    margin-top: 23px;
+}
+/* 后面的几个 */
+.sixth01 .right001{
+    margin-left: 9px;
+}
+.sixth01 .last{
+    margin-top: 10px;
+}
+
+/*最下边的部分 */
+.below{
+    width: 100%;
+    min-width: 1000px;
+    background: url(images/below.png) no-repeat center;
+}
+.below .below01{
+    width: 960px;
+    height: 88px;
+    margin: auto;
+    padding-top: 128px;
+    text-align: center;
+    font: 12px/24px "宋体";
+    color: #333;
+}
+
+/* 右边的浮窗 */
+.window{
+    width: 190px;
+    height: 471px;
+    position: fixed;
+    top: 50%;
+    left: 100%;
+    margin: -235px 0 0 -190px;   
+}
+.window .qixi{
+    display: block;
+}
+.window .QQ{
+    height: 42px;
+    width:174px;
+    background: #7161eb;
+    padding: 21px 0 0 16px;
+    overflow: hidden;
+}
+.QQ .qq,.online{
+    display: block;
+    float: left;
+}
+.QQ .online{
+
+    text-decoration: none;
+    font: 22px/22px "微软雅黑";
+    color: white;
+    margin: 4px 0 0 15px;
+}
+    /* 电话 */
+.window .DianHua{
+    width: 171px;
+    height: 46px;
+    background:  #7161eb;
+    margin-top: 1px;
+    overflow: hidden;
+    padding: 17px 0 0 19px;
+}
+.DianHua .dianhua{
+    display: block;
+    float: left;
+}
+.DianHua .shuzi{
+    display:block;
+    float: left;
+    text-decoration: none;
+    font: bold 18px/18px "微软雅黑";
+    color: #ff2787;
+    margin: 8px 0 0 19px;
+}
+    /* 微博 */
+.window .WeiBo{
+    width: 177px;
+    height: 50px;
+    background:  #7161eb;
+    margin-top: 1px;
+    padding: 13px 0 0 13px;
+    overflow: hidden;
+}
+.window .weibo,.guanzhu{
+    display: block;
+    float: left;
+}
+.window .guanzhu{
+    width: 109px;
+    height: 34px;
+    background: #ff4598;
+    text-align: center;
+    font: 18px/34px "微软雅黑";
+    color: #fff;
+    text-decoration: none;
+    border-radius: 2px;
+    margin-left: 12px;
+}
+    /* 二维码 */
+.window .EWM{
+    width: 190PX;
+    height: 198px;
+    background: #7161eb;
+    margin-top: 1px;
+    text-align: center;
+    padding-top: 15px;
+}
+.EWM .weixinhao{
+    font: 18px/18px "微软雅黑";
+    color: #fefeff;
+    margin-top: 14px;
+}
+.EWM .weixinhao span{
+    color: #ff4598;
+}
+.EWM .saoma{
+    font: 18px/18px "微软雅黑";
+    color: #fff;
+    margin-top: 8px;
+}
